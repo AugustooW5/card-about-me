@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #28223f;
+  font-family: Montserrat, sans-serif;
+}
+
+h3 {
+  margin: 10px 0px;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.container-cardInfos {
+  background-color: #231e39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#primaryInfos img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+#message {
+  background-color: #03bfcb;
+  border: 1px solid #03bfcb;
+  border-radius: 3px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+#follow {
+  background-color: transparent;
+  color: #02899c;
+  border: 1px solid #03bfcb;
+  border-radius: 3px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.others {
+  padding: 15px;
+  margin-top: 30px;
+  background-color: #1f1a36;
+  text-align: left;
+}
+
+.others ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.others h6 {
+  margin-bottom: 7px;
+}
+
+.others ul li {
+  border: 1px solid #2d2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
